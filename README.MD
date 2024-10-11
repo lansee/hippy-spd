@@ -1,12 +1,13 @@
 # hippy 首屏自动化监控工具
-## 在项目里安装：`tnpm install @tencent/qmfe-hippy-spd`
+<font color="#cf222e">一个200行代码即可实现在hippy的首屏自动化监控的工具</font>
+## 在项目里安装：`npm install hippy-spd`
 
 ## 2 组件使用说明
 
 ### 2.1 使用方式
 
 ```js
-import SPD from '@tencent/qmfe-hippy-spd';
+import SPD from 'hippy-spd';
 ```
 使用时传入参数初始化，
 `entryName` 为必填项
