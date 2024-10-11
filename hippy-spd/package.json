@@ -1,0 +1,30 @@
+{
+  "name": "hippy-spd",
+  "version": "1.0.0",
+  "description": "qmfe hippy spd tool",
+  "main": "index.ts",
+  "bin": {
+    "qmfe-hippy-spd": "index.ts"
+  },
+  "repository": "https://github.com/lansee/hippy-spd.git",
+  "scripts": {
+    "start": "rollup -c -w",
+    "build": "npm run fix && rollup -c",
+    "prettier": "prettier -c ./src/*.ts",
+    "fix": "eslint --fix ./src/*.ts"
+  },
+  "author": "daoye",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "7.11.5",
+    "@typescript-eslint/parser": "^4.28.0",
+    "eslint": "7.24.0",
+    "prettier": "^2.3.1",
+    "rollup": "^1.29.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-ts": "^1.4.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^4.0.5"
+  }
+}

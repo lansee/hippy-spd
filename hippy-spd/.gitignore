@@ -1,0 +1,14 @@
+.DS_Store
+/y.qq.com/.idea
+.idea
+.idea/*
+.vscode/
+.vscode/*
+.history/
+dist_*/
+dist/*
+node_modules
+node_modules/**
+/bundle/
+/bundle/**
+last_argument.js
